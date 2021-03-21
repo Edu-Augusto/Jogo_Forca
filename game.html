@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconForca.png" type="image/x-icon">
+    <title>Jogo da forca</title>
+    <script src="scripts/scriptsJogo.js"></script>
+    <link rel="stylesheet" href="style/estilosJogo.css">
+</head>
+<body>
+    <div id="dv1">
+    <input type="text" id="ipt0" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt1" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt2" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt3" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt4" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt5" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt6" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt7" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt8" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt9" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt10" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt11" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt12" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt13" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt14" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt15" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt16" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt17" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt18" class="ipt" maxlength="1" disabled>
+    <input type="text" id="ipt19" class="ipt" maxlength="1" disabled>
+    <button id="bt1"  class="bt" onclick="procurarLetra()">Enviar</button>
+    <button id="bt2" class="bt" onclick="escolhePalavra()">Nova palavra</button>
+    <div id="txt2"></div>
+    <input type="text" maxlength="1" id="letraJogador" class="ipt">
+    <p id="p1">Palavras tentadas :</p> 
+    <p id="p2">Erros :</p>
+    </div>  
+    <header id="cabeça">
+        <div id="logo">	&#9773;Jogo da forca</div>
+        <button id="btCabeça" onclick="menuInterativo()">&#9990;-Contato</button>
+    </header>
+    <div id="divMenu">
+        <a href=""><span style="top: 0%; right: 21px;" >Linkedin</span></a>
+        <a href="https://github.com/Edu-Augusto"><span style="top: 22px; right: 32px;">Github</span></a>
+        <a href="https://www.instagram.com/eduu_augusto/"><span style="top: 44px; right: 14px;">Instagran</span></a>
+     </div>
+     <div id="instruções">
+        <p style="font-size: 15pt;">&#9758;-Instruções para o game:</p>
+        <ol>&#10004;-Para iniciar o game, clique em nova palavra.</ol>
+        <ol>&#10004;-Você tem 4 erros permitidos.</ol>
+        <ol>&#10004;-Após escolhar a letra, clique em enviar.</ol>
+    </div>
+</body>
+</html>
