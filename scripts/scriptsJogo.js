@@ -14,6 +14,7 @@
         var winner;
         var preenchida=[];
         var estado=0;
+        var imagemBoneco;
         function iniciar(){
             biblioteca=['açougue','bola','futebol','javascript','computador','notebook','escola','paralelepipedo','celular','internet','tablet','brasileiro','carro','moto','motorista','dado','recursividade','mentalidade','pleonasmo','finalidade', 'palavra','paradigma','extensão','desgraça','índole','alienado','nojo','empatia','amor','respeito','exceto','deferido','sagaz','iminente','eminente','invasivo','sublime','essencial','varanda','abstrato','contundente','iniciante','indulgente','ardiloso','serenidade','conceito','prodígio','mito','devaneio','nobre','pobre','rico'];
             cont=biblioteca.length-1;
