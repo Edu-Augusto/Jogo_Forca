@@ -24,6 +24,7 @@
             palavra=biblioteca[pos];
             console.log(palavra);
             numLetras=palavra.length;
+            imagemBoneco=document.querySelector('.imgBoneco').src='css/img0.png';
             for(var i=0;i<20;i++){
                 obj=document.getElementById('ipt'+i).value='';
                 obj=document.getElementById('ipt'+i).style.display='none';
@@ -62,7 +63,8 @@
             if(palavra.match(letraEscolhida) == null){
                 erro+=1;
                 document.getElementById('p2').innerHTML+='-'+letraEscolhida+'-';
-                //boneco();
+                    imagemBoneco=document.querySelector('.imgBoneco').src='css/img'+erro+'.png';
+                
             }
             if(erro > 4){
                 alert("Você perdeu.");
